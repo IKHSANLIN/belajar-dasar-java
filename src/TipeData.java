@@ -9,9 +9,9 @@ public class TipeData {
         Double iniDouble = 1.0;
 
         //kode literal
-        int decimal = 100;
-        int hex = 0xffffff;
-        int binary = 0b01010101;
+        // int decimal = 100;
+        // int hex = 0xffffff;
+        // int binary = 0b01010101;
 
 
         System.out.println("iNI Byte: " + iniByte);
