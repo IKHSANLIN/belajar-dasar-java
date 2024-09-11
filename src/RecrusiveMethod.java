@@ -3,6 +3,7 @@ public class RecrusiveMethod {
     public static void main(String[] args) {
         factorialLoop(5);
         System.out.println(factorialRecursive(5));
+        loop(10000);
     }
 
     static void factorialLoop(int value){
@@ -19,4 +20,13 @@ public class RecrusiveMethod {
         }
         return value * factorialRecursive(value - 1);
     }
+    static void loop(int value){
+        if (value==0) {
+            System.out.println("Selesai");
+        } else {
+            System.out.println("Loop " + value);
+            loop(value - 1);
+        }
+        }
 }
+
